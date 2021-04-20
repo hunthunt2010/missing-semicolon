@@ -20,7 +20,6 @@ group :jekyll_plugins do
     gem 'jekyll-gist', '~> 1.5.0'
     gem 'jekyll-seo-tag', '~> 2.6.1'
     gem 'jekyll-sitemap', '~> 1.4.0'
-    gem 'jekyll-menus', '~> 0.6.1'
     gem 'jekyll-admin', '~> 0.10.2'
 end
 
@@ -33,3 +32,4 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+gem "webrick", "~> 1.7"
